@@ -1,0 +1,21 @@
+Source: toxcore
+Section: libs
+Priority: optional
+Maintainer: James Michael DuPont <mdupont@thefr33.com>
+Build-Depends: debhelper (>= 9),
+               dh-autoreconf,
+               libsodium-dev
+Standards-Version: 3.9.5
+Homepage: https://github.com/irungentoo/toxcore
+#Vcs-Git: git://anonscm.debian.org/collab-maint/tox.git
+#Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/tox.git;a=summary
+
+Package: libtoxcore
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: tox.im communication library
+ With the rise of governemantal monitoring programs, Tox,
+ a FOSS initiative, aims to be an easy to use, all-in-one
+ communication platform that ensures their full privacy
+ and secure message delivery.
+

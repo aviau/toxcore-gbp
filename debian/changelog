@@ -1,0 +1,6 @@
+toxcore (2014.10.21-1) experimental; urgency=low
+
+  * Initial release (Closes: #739860)
+
+ -- James Michael DuPont <mdupont@thefr33.com>  Fri, 04 Jul 2014 12:39:41 -0500
+
